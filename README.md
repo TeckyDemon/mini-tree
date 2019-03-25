@@ -2,6 +2,12 @@
 
 **Mini-Tree** is very small script for printing directory structure in the form of a tree.
 
+- [Content](#content)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Authors](#authors)
+- [License](#license)
+
 ## Installation
 
 Clone this repository:
