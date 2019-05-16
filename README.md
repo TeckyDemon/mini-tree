@@ -16,7 +16,6 @@
 git clone "https://github.com/DeBos99/mini-tree.git"
 sudo mv /usr/bin/tree /usr/bin/tree.bak 2>/dev/null
 sudo mv tree /usr/bin
-sudo chmod +x /usr/bin/tree
 ```
 
 ## Usage
