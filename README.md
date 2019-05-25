@@ -1,5 +1,7 @@
 # Mini-Tree
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **Mini-Tree** is very small script for printing directory structure in the form of a tree.
 
 ## Content
