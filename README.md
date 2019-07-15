@@ -25,6 +25,10 @@
 
 - [Content](#content)
 - [Installation](#installation)
+  - [Debian/Ubuntu](#apt)
+  - [Arch Linux/Manjaro](#pacman)
+  - [CentOS](#yum)
+  - [MacOS](#homebrew)
 - [Usage](#usage)
 - [Authors](#authors)
 - [Contact](#contact)
@@ -32,7 +36,41 @@
 
 ## Installation
 
+### <a name="APT">Debian/Ubuntu based
+
+* Run following commands in the terminal:
 ```
+sudo apt install git -y
+git clone "https://github.com/DeBos99/mini-tree.git"
+sudo mv /usr/bin/tree /usr/bin/tree.bak 2>/dev/null
+sudo mv tree /usr/bin
+```
+
+### <a name="Pacman">Arch Linux/Manjaro
+
+* Run following commands in the terminal:
+```
+sudo pacman -S git --noconfirm
+git clone "https://github.com/DeBos99/mini-tree.git"
+sudo mv /usr/bin/tree /usr/bin/tree.bak 2>/dev/null
+sudo mv tree /usr/bin
+```
+
+### <a name="YUM">CentOS
+
+* Run following commands in the terminal:
+```
+sudo yum install git -y
+git clone "https://github.com/DeBos99/mini-tree.git"
+sudo mv /usr/bin/tree /usr/bin/tree.bak 2>/dev/null
+sudo mv tree /usr/bin
+```
+
+### <a name="Homebrew">MacOS
+
+* Run following commands in the terminal:
+```
+brew install git
 git clone "https://github.com/DeBos99/mini-tree.git"
 sudo mv /usr/bin/tree /usr/bin/tree.bak 2>/dev/null
 sudo mv tree /usr/bin
