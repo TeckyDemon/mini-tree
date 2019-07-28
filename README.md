@@ -86,7 +86,8 @@ sudo mv tree /usr/bin
 
 ## Contact
 
-Discord: DeBos#3292
+* Discord: DeBos#3292
+* Reddit: [DeBos99](https://www.reddit.com/user/DeBos99)
 
 ## License
 
